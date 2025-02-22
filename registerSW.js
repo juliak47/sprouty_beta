@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sprouty_beta/sw.js', { scope: '/sprouty_beta/' })})}
