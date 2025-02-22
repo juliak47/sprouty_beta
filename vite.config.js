@@ -1,8 +1,10 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/sprouty_beta/',
   plugins: [
     react(),
     VitePWA({
@@ -10,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: 'Sprouty Health Tracker',
         short_name: 'Sprouty',
-        start_url: '/',
+        start_url: '/sprouty_beta/', 
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#ffffff',
