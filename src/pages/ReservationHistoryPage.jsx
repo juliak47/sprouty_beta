@@ -34,11 +34,11 @@ export default function ReservationHistoryPage() {
               borderRadius: '4px'
             }}
           >
-            <p><strong>Restaurant:</strong> {res.restaurantName}</p>
-            <p><strong>Meal:</strong> {res.meal}</p>
-            <p><strong>Price:</strong> {res.price}</p>
+            <p><strong>Restaurant:</strong> {res.restaurant}</p>
+            <p><strong>Menu:</strong> {res.orderSummary}</p>
+            <p><strong>Pickup Time:</strong> {res.pickupTime}</p>
             <p><strong>Voucher Code:</strong> {res.voucher}</p>
-            <p><strong>Date:</strong> {new Date(res.date).toLocaleString()}</p>
+            <p><strong>Reserved At:</strong> {new Date(res.date).toLocaleString()}</p>
           </li>
         ))}
       </ul>

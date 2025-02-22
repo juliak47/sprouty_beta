@@ -18,7 +18,9 @@ export default function HomePage() {
       
       {/* Restaurant List */}
       <main className="max-w-md mx-auto">
-        <ul className="space-y-6">
+        <ul 
+          className="space-y-6 list-none pl-0"
+          style={{ listStyleType: 'none' }}>
           {restaurants.map((r) => (
             <li
               key={r.id}
