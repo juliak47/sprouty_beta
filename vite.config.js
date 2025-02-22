@@ -12,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: 'Sprouty Health Tracker',
         short_name: 'Sprouty',
-        start_url: '/sprouty_beta/', 
+        start_url: '/sprouty_beta/',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#ffffff',
